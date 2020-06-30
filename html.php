@@ -6,9 +6,17 @@
     <title>Document</title>
 </head>
 <body>
+    <form action="squere.php" method="post">
+        <label >сторона а</label><br>
+        <input type="text" name='a'><br>
+        <label >сторона b</label><br>
+        <input type="text" name="b"><br>
+        <label >сторона c</label><br>
+        <input type="text" name="c"><br>
+        <input type="submit" value="add"><br>
+    </form>
     <?php 
         
-        echo 'Площадь треугольника' . ': ' . squere(3,3,4) . "<br>" . 'Высота треугольника' . ': ' . heightTrigon(3,3,4);
     ?> 
 </body>
 </html>
