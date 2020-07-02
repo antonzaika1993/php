@@ -6,17 +6,15 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="squere.php" method="post">
-        <label >сторона а</label><br>
-        <input type="text" name='a'><br>
-        <label >сторона b</label><br>
-        <input type="text" name="b"><br>
-        <label >сторона c</label><br>
-        <input type="text" name="c"><br>
-        <input type="submit" value="add"><br>
+    <form action='pdo.php' method='post'>
+        <label >
+            <p>name:</p>
+            <input type="text" name='name'>
+            <input type="submit" value='add'>
+        </label>
     </form>
-    <?php 
-        
-    ?> 
+    <?php
+    echo $set['autor'];
+    ?>
 </body>
 </html>
