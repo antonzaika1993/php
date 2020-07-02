@@ -17,6 +17,7 @@
         ),
     );
     require './pdo.php';
+    require './insert.php';
     require './function.php';
     require './html.php';
     
