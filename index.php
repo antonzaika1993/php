@@ -16,6 +16,7 @@
             12,
         ),
     );
+  //TODO remove not used logic
     require './pdo.php';
     require './insert.php';
     require './function.php';
